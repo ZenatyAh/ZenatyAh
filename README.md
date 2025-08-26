@@ -22,8 +22,8 @@
 ---
 
 ## 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=YourUserName&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YourUserName&layout=compact&theme=radical)  
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Ahmedzenaty&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmedzenaty&layout=compact&theme=radical)  
 
 ---
 
