@@ -22,8 +22,8 @@
 ---
 
 ## 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Ahmedzenaty&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmedzenaty&layout=compact&theme=radical)  
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=ZenatyAh&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ZenatyAh&layout=compact&theme=radical)  
 
 ---
 
@@ -34,4 +34,4 @@
 
 ---
 
-⭐️ From [AhmedZenaty](https://github.com/Ahmedzenaty)
+⭐️ From [AhmedZenaty](https://github.com/ZenatyAh)
