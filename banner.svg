@@ -71,15 +71,15 @@
     <text class="name" x="76" y="162">Ahmed Zenaty</text>
 
     <g class="line l1">
-      <text class="role" x="80" y="220">Frontend Developer</text>
+      <text class="role" x="80" y="220" textLength="302" lengthAdjust="spacingAndGlyphs">Frontend Developer</text>
       <g class="cover"><rect class="bg" x="78" y="190" width="700" height="42"/><rect class="caret" x="80" y="194" width="3" height="32"/></g>
     </g>
     <g class="line l2">
-      <text class="role" x="80" y="220">React · Next.js · TypeScript</text>
+      <text class="role" x="80" y="220" textLength="470" lengthAdjust="spacingAndGlyphs">React · Next.js · TypeScript</text>
       <g class="cover"><rect class="bg" x="78" y="190" width="700" height="42"/><rect class="caret" x="80" y="194" width="3" height="32"/></g>
     </g>
     <g class="line l3">
-      <text class="role" x="80" y="220">Building bilingual web apps</text>
+      <text class="role" x="80" y="220" textLength="454" lengthAdjust="spacingAndGlyphs">Building bilingual web apps</text>
       <g class="cover"><rect class="bg" x="78" y="190" width="700" height="42"/><rect class="caret" x="80" y="194" width="3" height="32"/></g>
     </g>
 
