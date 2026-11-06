@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Ahmed Zenaty, Frontend Developer from Gaza, Palestine">
+  <title>Ahmed Zenaty, Frontend Developer</title>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#a371f7"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#30363d"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="300" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .bg { fill: #0d1117; }
+    .hello { font: 500 22px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #7d8590; }
+    .name { font: 700 66px "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+    .role { font: 500 28px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #58a6ff; }
+    .loc { font: 400 18px "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif; fill: #7d8590; }
+    .tag { font: 700 150px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #58a6ff; opacity: 0.14; }
+    .caret { fill: #58a6ff; animation: blink 1s steps(1) infinite; }
+
+    .line { opacity: 0; animation: show 12s infinite; }
+    .l1 .cover { animation: type1 12s infinite; }
+    .l2 .cover { animation: type2 12s infinite; }
+    .l3 .cover { animation: type3 12s infinite; }
+    .l2, .l2 .cover { animation-delay: 4s; }
+    .l3, .l3 .cover { animation-delay: 8s; }
+
+    .float { animation: float 6s ease-in-out infinite; }
+    .shine { animation: shine 6s linear infinite; }
+
+    @keyframes show {
+      0% { opacity: 1; } 32% { opacity: 1; } 33% { opacity: 0; } 100% { opacity: 0; }
+    }
+    @keyframes type1 {
+      0% { transform: translateX(0); animation-timing-function: steps(18, end); }
+      9% { transform: translateX(304px); }
+      100% { transform: translateX(304px); }
+    }
+    @keyframes type2 {
+      0% { transform: translateX(0); animation-timing-function: steps(28, end); }
+      14% { transform: translateX(472px); }
+      100% { transform: translateX(472px); }
+    }
+    @keyframes type3 {
+      0% { transform: translateX(0); animation-timing-function: steps(27, end); }
+      13% { transform: translateX(456px); }
+      100% { transform: translateX(456px); }
+    }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    @keyframes shine { 0% { transform: translateX(-1200px); } 100% { transform: translateX(1200px); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .line, .cover, .caret, .float, .shine { animation: none; }
+      .l1 { opacity: 1; }
+      .l1 .cover { transform: translateX(304px); }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect class="bg" width="1200" height="300"/>
+    <rect x="700" width="500" height="300" fill="url(#dots)" opacity="0.6"/>
+
+    <g class="float">
+      <text class="tag" x="1110" y="200" text-anchor="end">&lt;/&gt;</text>
+    </g>
+
+    <text class="hello" x="80" y="92">&gt; hello world, I'm</text>
+    <text class="name" x="76" y="162">Ahmed Zenaty</text>
+
+    <g class="line l1">
+      <text class="role" x="80" y="220">Frontend Developer</text>
+      <g class="cover"><rect class="bg" x="78" y="190" width="700" height="42"/><rect class="caret" x="80" y="194" width="3" height="32"/></g>
+    </g>
+    <g class="line l2">
+      <text class="role" x="80" y="220">React · Next.js · TypeScript</text>
+      <g class="cover"><rect class="bg" x="78" y="190" width="700" height="42"/><rect class="caret" x="80" y="194" width="3" height="32"/></g>
+    </g>
+    <g class="line l3">
+      <text class="role" x="80" y="220">Building bilingual web apps</text>
+      <g class="cover"><rect class="bg" x="78" y="190" width="700" height="42"/><rect class="caret" x="80" y="194" width="3" height="32"/></g>
+    </g>
+
+    <text class="loc" x="80" y="262">Gaza, Palestine  ·  Open to remote Frontend and Full-Stack roles</text>
+
+    <rect y="294" width="1200" height="6" fill="url(#bar)"/>
+    <g class="shine"><rect y="294" width="240" height="6" fill="#ffffff" opacity="0.35"/></g>
+  </g>
+</svg>
